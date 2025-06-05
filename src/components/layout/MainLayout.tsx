@@ -3,7 +3,7 @@ import { Outlet, Navigate } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import Header from './Header';
 import { useAuth } from '@/contexts/AuthContext'; // Adjust path
-import { Toaster } from "@/components/ui/sonner" // For notifications
+import { Toaster } from 'sonner';
 
 const MainLayout = () => {
   const { user, isLoading } = useAuth();

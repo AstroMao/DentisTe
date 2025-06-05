@@ -1,6 +1,6 @@
 import PocketBase from 'pocketbase';
 
-export const PB_URL = 'http://10.1.1.3'; // Your Pocketbase server URL
+export const PB_URL = 'http://10.1.1.3:8080'; // Your Pocketbase server URL
 
 const pb = new PocketBase(PB_URL);
 
